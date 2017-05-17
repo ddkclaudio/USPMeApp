@@ -21,5 +21,5 @@ $ ionic run android
 or
 
 ```bash
-$ ionic platform add android
+$ ionic build android
 ```
