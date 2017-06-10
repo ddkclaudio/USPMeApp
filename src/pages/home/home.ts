@@ -14,7 +14,7 @@ export class HomePage {
   }
 
   ngOnInit(){
-      const browser = this.iab.create('https://www.google.com.br/','_self',{location:'no',zoom:'no',closebuttoncaption:'no',EnableViewPortScale:'no'});
+      const browser = this.iab.create('https://uspme-dede999.c9users.io/','_self',{location:'no',zoom:'no',closebuttoncaption:'no',EnableViewPortScale:'no'});
   }
 
 }
