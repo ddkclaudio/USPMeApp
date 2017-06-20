@@ -1,4 +1,11 @@
-## How to use this template
+#  USPMe - App Cross platform
+
+A little about:
+
+This is a cross platform application to manage and follow up the graduation at the University of São Paulo.
+
+
+### how to use?
 
 1. Install NodeJs
 2. Install Android SDK
@@ -7,24 +14,22 @@
 ```bash
 $ npm install -g ionic cordova
 ```
-
+Run server in browser
 ```bash
 $ ionic serve
 ```
-
-or
-
+Install application on smartphone
 ```bash
 $ ionic cordova run android
 ```
-
-or
-
+Generate .apk file for android
 ```bash
 $ ionic cordova build android
 ```
-Links
-```bash
-https://www.techiediaries.com/ionic-2-3-inappbrowser/
-https://www.thepolyglotdeveloper.com/2016/01/launch-websites-with-ionic-2-using-the-inappbrowser/
-```
+
+
+### Libraries used:
+
+ * [Ionic Cordova](https://ionicframework.com/) for build mobile app
+ * [NodeJs](https://nodejs.org/en/) for compilation
+ * [Android SDK](https://developer.android.com/studio/index.html) for native android app
